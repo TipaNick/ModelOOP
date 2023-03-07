@@ -1,10 +1,12 @@
 #pragma once
-#include "battery.h"
+
+#include "include/thermometer.h"
+#include "include/smokedetector.h"
+#include "include/anemometer.h"
+#include "include/navigator.h"
 
 class Quadrocopter {
     private:
-        Battery battery;
     protected:
     public:
-        int checkBatteryCapacity();
 };
